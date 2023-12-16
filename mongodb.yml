@@ -9,7 +9,7 @@
 
     - name: Install Mongodb
       ansible.buitin.yum:
-        name: mongodb.org
+        name: mongodb-org
         state: installed
 
     - name: Update Listen Address in Mongodb Configuration
